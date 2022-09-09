@@ -1,0 +1,104 @@
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    height: 100%;
+
+}
+
+header {
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+
+}
+
+nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav a:hover{
+    color: rgb(152, 152, 152);
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      
+}
+
+
+.mainpage{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: rgb(54, 54, 54);
+    border-radius: 20px;
+    padding: 40px;
+
+}
+.mainimg{
+    border-radius: 25px;
+    align-items: center;
+    margin: 30px;
+
+}
+.maintitle{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(54, 54, 54);
+
+}
+.article{
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.imagegallery{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.projects{
+    text-align: center;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(152, 152, 152);
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      
+
+}
+
